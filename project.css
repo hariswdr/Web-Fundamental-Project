@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Quicksand&display=swap');
+@media screen and (max-width: 720px){
+    #content,
+    aside{
+        width: 80%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+
+/*header*/
+img.judul{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    display: inline;
+ }
+div.navigate{
+    position: sticky;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-bottom: -2em;
+    padding:10px;
+    box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #dcf5fa;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+ }
+nav a:hover{
+    font-weight: bold;
+}
+header.dua{
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:large;
+    color: #5c9af7;
+}
+
+
+
+/*Author Page*/
+aside {
+    float: right;
+    width: 17%;
+ }
+p.bio{
+    font-weight: bold;
+    text-indent: -0.1em;
+    text-align: center;
+}
+img.fotobio{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 3px dotted #a9cbd4;
+    padding: 10px;
+}
+article.card5{
+    margin-top: 4.8em;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
+}
+
+
+/*main*/
+main {
+    padding: 20px;
+    overflow: auto;
+ }
+.jumbotron {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 80px;
+    padding: 40px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #11C5C6;
+    text-align: center;
+    color: white;
+ }
+body{
+    font-family: 'Quicksand';
+    background-color:#edfffe;
+}
+p{
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 2em;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+img.bagian{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #575d63;
+    padding: 10px;
+}figcaption, caption{
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    line-height: 2em;
+}
+p.pembuka::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Comfortaa';
+    color: black;
+}
+article.card1{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -0.5em;
+    padding:10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
+}
+article.card2{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
+}
+article.card3{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
+}
+article.card4{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
+}
+
+
+/*heading*/
+h1{
+    font-family: 'Lobster';
+}
+
+h2{
+    font-family: 'Comfortaa';
+    margin-left: 50px;
+}
+h3{
+    font-family: 'Comfortaa';
+}
+
+
+/*table*/
+table,th,td{
+    padding: 15px;
+    text-align: center;
+}
+
+tr:hover{
+    color: grey;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*footer*/
+footer{
+    text-align: center;
+    font-family: 'Comfortaa';
+    padding: 20px;
+    color:white;
+    background-color: #11C5C6
+}
+a.ref:link{
+    color:blue;
+}
+a.ref:visited{
+    color:grey;
+}
+a.ref:hover{
+    color:blueviolet;
+}
